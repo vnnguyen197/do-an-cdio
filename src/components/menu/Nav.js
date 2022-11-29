@@ -6,12 +6,14 @@ class Nav extends Component {
     render() {
         return (
             <nav>
-            <ul className="bang">
-              <li><NavLink to="/Article">TRANG CHỦ</NavLink></li>
-              <li><NavLink to="/Gioithieu">GIỚI THIỆU</NavLink></li>
-              <li><NavLink to="/Sanphammoive">HÀNG THANH LÝ MỚI VỀ</NavLink></li>
-              <li><NavLink to="/Huongdanmuahang">HƯỚNG DẪN MUA HÀNG</NavLink></li>
-              <li><NavLink to="/Lienhe">LIÊN HỆ</NavLink></li>
+            <ul className="list">
+              <li className="list-items"><NavLink to="/">TRANG CHỦ</NavLink></li>
+              <li className="list-items"><NavLink to="/Gioithieu">GIỚI THIỆU</NavLink></li>
+              <li className="list-items"><NavLink to="/Sanphammoive">NĂNG LỰC</NavLink></li>
+              <li className="list-items"><NavLink to="/Huongdanmuahang">SẢN PHẨM</NavLink></li>
+              <li className="list-items"><NavLink to="/Huongdanmuahang">BÁO GIÁ</NavLink></li>
+              <li className="list-items"><NavLink to="/Huongdanmuahang">VIDEO</NavLink></li>
+              <li className="list-items"><NavLink to="/Lienhe">LIÊN HỆ</NavLink></li>
             </ul>
           </nav>
           
