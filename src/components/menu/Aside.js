@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {
-    BrowserRouter as Router,
     NavLink
 } from "react-router-dom";
 
@@ -15,7 +14,7 @@ class Aside extends Component {
                         <div class="inner"></div>
                     </div>
                     <h3>DANH MỤC SẢN PHẨM</h3>
-                    <img src="Picture/icon2.png" />
+                    <img src="Picture/icon2.png" alt=""/>
                     <div align="justify">
                         <ul style={{ listStyleImage: 'url(Picture/1.png)' }}>
                            <li> <span><NavLink to="/NoithatGD">Thanh lý nội thất gia đình</NavLink></span></li>

@@ -21,7 +21,7 @@ class Ntc1 extends Component {
                         </div>
                     </div>
                 </article>
-            {/* <Footer/> */}
+            <Footer/>
             </div>
         );
     }

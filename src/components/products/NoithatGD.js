@@ -46,7 +46,7 @@ class NoithatGD extends Component {
                         </div>
                     </div>
                 </article>
-              {/* <Footer/> */}
+              <Footer/>
             </div>
             </Router>
         );

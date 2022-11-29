@@ -88,15 +88,15 @@ class Dangky extends Component {
               <input type="text" name="username" value={this.state.fields.username} onChange={this.handleChange} />
         <div className="errorMsg">{this.state.errors.username}</div>
               </div><br />
-              <div><a>Email*</a><br />
+              <div>Email*<br />
               <input type="text" name="emailid" value={this.state.fields.emailid} onChange={this.handleChange}  />
         <div className="errorMsg">{this.state.errors.emailid}</div>
               </div><br />
-              <div><a>Mật Khẩu</a><br />
+              <div>Mật Khẩu<br />
               <input type="password" name="password" value={this.state.fields.password} onChange={this.handleChange} />
         <div className="errorMsg">{this.state.errors.password}</div>
               </div><br />
-              <div><a>Nhập Lại Mật Khẩu</a><br />
+              <div>Nhập Lại Mật Khẩu<br />
               <input type="password" name="repassword" value={this.state.fields.repassword} onChange={this.handleChange} />
         <div className="errorMsg">{this.state.errors.repassword}</div>
               </div><br />
