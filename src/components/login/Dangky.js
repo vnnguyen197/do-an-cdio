@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import {
-  NavLink
-} from "react-router-dom";
 import Footer from '../layouts/footer';
 class Dangky extends Component {
   constructor() {

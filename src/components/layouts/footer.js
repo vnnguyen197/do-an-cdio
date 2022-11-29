@@ -4,6 +4,8 @@ import {
 } from "react-router-dom";
 
 function Footer(){
+  return(
+    <div>
     <footer className="mainfooter" style={{ bottom: -800, margin: 0, fontFamily: 'Arial, Helvetica, sans-serif', background: '#ffffff' }}>
     <br />
     <div className="footer">
@@ -88,5 +90,7 @@ function Footer(){
       </div>
     </div>
   </footer>
+   </div>
+  )
 }
 export default Footer

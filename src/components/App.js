@@ -68,17 +68,17 @@ function HomePage() {
   const authListener = () => {
     Firebase.auth().onAuthStateChanged((user) => {
       if (user) {
-        clearInputs();
-        setUser(user);
+        clearInputs()
+        setUser(user)
       } else {
-        setUser("");
+        setUser('');
       }
     });
   };
 
   useEffect(() => {
     authListener();
-  }, []);
+  }, [user]);
 
   return (
       <div className="App">
@@ -99,8 +99,6 @@ function HomePage() {
             passwordError={passwordError}
           />
           )}   
-       <div>
-         </div> 
       </div>
   );
 }
